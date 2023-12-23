@@ -1,0 +1,586 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --Background-Color: hsl(0, 0%, 8%);
+    --Primary-Color: hsl(0, 0%, 14%);
+    --Secondary-Color: hsl(153, 71%, 60%);
+    --Primary-Text-Color: hsl(0, 0%, 100%);
+    --Secondary-Text-Color: hsl(0, 0%, 85%);
+    --Error-Color: hsl(7, 100%, 68%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SpaceGrotesk', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: var(--Background-Color);
+    overflow-x: hidden;
+}
+
+*::selection {
+    color: var(--Secondary-Color);
+    background-color: var(--Primary-Color);
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--Secondary-Color);
+    border-radius: 7.5px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    color: var(--Primary-Text-Color);
+}
+
+h1 {
+    font-size: 4.7vw;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: var(--Secondary-Text-Color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--Primary-Text-Color);
+}
+
+img {
+    color: var(--Primary-Text-Color);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+main section {
+    margin-bottom: 8rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    transition: color .3s ease;
+    color: var(--Primary-Text-Color);
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn::before,
+.btn::after {
+    content: "";
+    height: 2.2px;
+    width: 50%;
+    position: absolute;
+    bottom: -3.5px;
+    transition: .5s;
+    background-color: var(--Secondary-Color);
+    cursor: pointer;
+}
+
+.btn::before {
+    left: 50%;
+    border-top-right-radius: .8px;
+    border-bottom-right-radius: .8px;
+}
+
+.btn::after {
+    right: 50%;
+    border-top-left-radius: .8px;
+    border-bottom-left-radius: .8px;
+}
+
+.btn:hover {
+    color: var(--Secondary-Color);
+}
+
+.btn:hover::before,
+.btn:hover::after {
+    width: 10%;
+}
+
+.wrapper {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+header {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.social-link {
+    margin-right: 1.5rem;
+}
+
+.social-link:last-child {
+    margin-right: 2rem;
+}
+
+.social-link svg {
+    transition: scale .2s ease-in;
+}
+
+.social-link svg:hover {
+    scale: 1.15;
+}
+
+.social-link svg path {
+    height: 100%;
+    width: 100%;
+    transition: fill .2s ease-in;
+}
+
+.social-link:hover svg path {
+    fill: var(--Secondary-Color);
+}
+
+#home {
+    min-height: 100vh;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.introduction {
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.introduction::before {
+    content: url('./assets/images/pattern-rings.svg');
+    position: absolute;
+    top: 15%;
+    left: -30%;
+}
+
+.introduction-headings {
+    width: 90%;
+    z-index: 1;
+}
+
+.introduction-heading span {
+    position: relative;
+}
+
+.introduction-heading span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    height: 3.2px;
+    width: 100%;
+    background-color: var(--Secondary-Color);
+}
+
+.introduction-text {
+    width: 60%;
+}
+
+picture {
+    position: relative;
+    height: 100vh;
+    width: 40vw;
+    min-width: 350px;
+}
+
+picture::before {
+    content: url('./assets/images/pattern-circle.svg');
+    position: absolute;
+    bottom: 10%;
+    left: -15%;
+}
+
+picture img {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: fit-content;
+    width: 80%;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--Secondary-Text-Color);
+    border-radius: 1px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-section {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3rem;
+    position: relative;
+    text-transform: capitalize;
+}
+
+#skills-section::before {
+    content: url('./assets/images/pattern-rings.svg');
+    position: absolute;
+    bottom: -18%;
+    right: -38%;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 3.5rem;
+    position: relative;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: .8rem;
+    transition: scale .3s;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.project:hover {
+    scale: .9;
+}
+
+.project-view {
+    min-height: 300px;
+    min-width: 350px;
+    max-height: 400px;
+    max-width: 500px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project-view:hover .project-links {
+    opacity: 1;
+}
+
+.project-view img {
+    height: 100%;
+    width: 100%;
+}
+
+.project-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15%;
+    background-color: rgb(0, 0, 0, .75);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.project-links-visible {
+    margin-top: 1rem;
+    display: none;
+}
+
+.project-links-visible a {
+    margin-right: 1rem;
+}
+
+.project-stack-tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-stack-tag {
+    color: var(--Secondary-Text-Color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 4rem 0 1rem;
+    background-color: var(--Primary-Color);
+}
+
+.contact-section {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-desc {
+    width: 40%;
+}
+
+.contact-desc p {
+    margin-top: 3rem;
+    font-size: 16px;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: relative;
+}
+
+form::before {
+    content: url('./assets/images/pattern-rings.svg');
+    position: absolute;
+    bottom: -55px;
+    left: -80vw;
+    pointer-events: none;
+}
+
+.field {
+    width: 100%;
+    position: relative;
+}
+
+.field span {
+    display: none;
+    color: var(--Error-Color);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-align: right;
+    margin-top: .69rem;
+}
+
+.error,
+.error:active,
+.error:focus {
+    border-bottom: 1.5px solid var(--Error-Color);
+}
+
+.error-icon::before {
+    content: url('./assets/images/icon-error.svg');
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    padding: 1rem .5rem;
+    color: var(--Primary-Text-Color);
+    background-color: transparent;
+    border-bottom: 1.5px solid var(--Secondary-Text-Color);
+    transition: border .3s ease, scale .3s ease;
+    cursor: pointer;
+    caret-color: var(--Secondary-Color);
+}
+
+textarea {
+    resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--Secondary-Text-Color);
+    opacity: .5;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    border-bottom: 1.5px solid var(--Secondary-Color);
+    scale: 1.1;
+}
+
+#name[type="text"] {
+    text-transform: capitalize;
+}
+
+#send-btn {
+    margin-top: 1rem;
+}
+
+footer nav {
+    border-top: 1px solid var(--Secondary-Text-Color);
+    width: 80%;
+}
+
+footer .social-link:last-child {
+    margin-right: 0;
+}
+
+#view-more-btn {
+    height: fit-content;
+    width: fit-content;
+    align-self: flex-end;
+    margin-top: 3rem;
+}
+
+.top-btn {
+    opacity: 0;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: .25rem .6rem;
+    border-radius: 5px;
+    color: var(--Primary-Color);
+    background-color: var(--Primary-Text-Color);
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.top-btn:hover {
+    box-shadow: 5px 5px var(--Secondary-Color),
+        10px 10px var(--Primary-Color);
+    scale: 1.1;
+}
+
+@media (width<=1150px) {
+    h1 {
+        font-size: 5.7vw;
+    }
+
+    p {
+        font-size: 1.7vw;
+    }
+
+    header,
+    #home {
+        width: 90%;
+    }
+
+    form::before {
+        left: -85vw;
+    }
+
+    .introduction {
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .introduction::before {
+        left: -40%;
+    }
+
+    #skills-section::before {
+        bottom: -55%;
+        right: -50%;
+    }
+}
