@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Single-page Developer Portfolio Solution](https://github.com/Developer-Ashutosh/Single-page-Developer-Portfolio)
-- Live Site URL: [Single-page Developer Portfolio](https://developer-ashutosh.github.io/Single-page-Developer-Portfolio/)
+- Solution URL: [Single-page Developer Portfolio Solution](https://github.com/Developer-Ashutosh/Single-Page-Developer-Portfolio)
+- Live Site URL: [Single-page Developer Portfolio](https://developer-ashutosh.github.io/Single-Page-Developer-Portfolio/)
 
 ## My process
 

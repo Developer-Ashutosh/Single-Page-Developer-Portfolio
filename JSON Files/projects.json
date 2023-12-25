@@ -1,9 +1,25 @@
 [
     {
+        "title": "AI Powered Tic-Tac-Toe",
+        "isNew": true,
+        "isFeatured": true,
+        "thumbnail": "./assets/thumbnails/tic-tac-toe.webp",
+        "languages": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "tools": [],
+        "links": {
+            "project": "https://developer-ashutosh.github.io/Tic-Tac-Toe/",
+            "code": "https://github.com/Developer-Ashutosh/Tic-Tac-Toe"
+        }
+    },
+    {
         "title": "Multi Step Form",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-1.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/multi-step-form.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -17,9 +33,9 @@
     },
     {
         "title": "REST Countries API with color theme switcher",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-2.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/rest-countries-api.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -34,9 +50,9 @@
     },
     {
         "title": "Rock, Paper, Scissors game + bonus levels",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-3.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/rock-paper-scissor.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -50,9 +66,9 @@
     },
     {
         "title": "Dictionary Web App",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-4.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/dictionary-web-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -67,9 +83,9 @@
     },
     {
         "title": "IP Address Tracker",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-5.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/ip-address-tracker.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -84,9 +100,9 @@
     },
     {
         "title": "Todo web app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-6.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/todo-web-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -100,9 +116,9 @@
     },
     {
         "title": "Password generator app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-13.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/password-generator-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -116,9 +132,9 @@
     },
     {
         "title": "Calculator app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-7.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/calculator-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -132,9 +148,9 @@
     },
     {
         "title": "Job listings with filtering",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-8.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/job-listing-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -148,9 +164,9 @@
     },
     {
         "title": "Tip calculator app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-9.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/tip-calculator-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -164,9 +180,9 @@
     },
     {
         "title": "Advice generator app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-10.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/advice-generator-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -181,9 +197,9 @@
     },
     {
         "title": "Age calculator app",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-11.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/age-calculator-app.webp",
         "languages": [
             "HTML",
             "CSS",
@@ -197,9 +213,9 @@
     },
     {
         "title": "Space tourism multi-page website",
-        "new": false,
-        "featured": false,
-        "thumbnail": "./assets/images/thumbnail-project-12.webp",
+        "isNew": false,
+        "isFeatured": false,
+        "thumbnail": "./assets/thumbnails/space-tourism-website.webp",
         "languages": [
             "HTML",
             "CSS",

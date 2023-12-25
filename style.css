@@ -373,6 +373,33 @@ main {
     transition: opacity .3s;
 }
 
+.project-tags {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.new-project,
+.featured-project {
+    border-radius: 1rem;
+    padding: .1rem .5rem;
+    color: var(--Primary-Text-Color);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.new-project {
+    background-color: #ED2C49;
+}
+
+.featured-project {
+    background-color: #3E54A3;
+}
+
 .project-links-visible {
     margin-top: 1rem;
     display: none;

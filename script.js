@@ -79,13 +79,17 @@ const createSkills = (skill) => {
 
 // Function to create projects element
 const createProjects = (project) => {
-    const { title, thumbnail, languages, links } = project;
+    const { title, thumbnail, languages, links, isNew, isFeatured } = project;
     return createDivElement('project', `
         <div class="project-view">
             <img src="${thumbnail}" alt="${title}">
             <div class="project-links">
                 <a target="_blank" href="${links.project}" class="view-project btn">View Project</a>
                 <a target="_blank" href="${links.code}" class="view-code btn">View Code</a>
+            </div>
+            <div class = "project-tags">
+                <div class ="featured-project" style="display: ${isFeatured ? 'block' : 'none'};">${isFeatured ? 'featured' : ''}</div>
+                <div class ="new-project" style=" display: ${isNew ? 'block' : 'none'};">${isNew ? 'new' : ''}</div>
             </div>
         </div>
         <h3 class="project-title">${title}</h3>
