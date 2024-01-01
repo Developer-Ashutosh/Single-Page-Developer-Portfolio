@@ -1,5 +1,17 @@
 [
   {
+    "title": "Entertainment App",
+    "isNew": true,
+    "isFeatured": true,
+    "thumbnail": "./assets/thumbnails/entertainment-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Entertainment-App/",
+      "code": "https://github.com/Developer-Ashutosh/Entertainment-App"
+    }
+  },
+  {
     "title": "AI Powered Tic-Tac-Toe",
     "isNew": true,
     "isFeatured": true,

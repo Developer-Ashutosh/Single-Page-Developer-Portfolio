@@ -188,7 +188,7 @@
     }
 
     footer nav {
-        width: 95%;
+        width: 90%;
         padding-top: 1rem;
     }
 }
@@ -197,6 +197,10 @@
 @media (width<=500px) {
     .introduction::before {
         left: -120%;
+    }
+
+    .introduction-text {
+        width: 90%;
     }
 
     picture {
@@ -219,6 +223,10 @@
         right: -80%;
     }
 
+    .projects {
+        row-gap: 2.5rem;
+    }
+
     .project-view {
         height: 240px;
         width: 320px;
@@ -228,5 +236,77 @@
 
     form::before {
         left: -120%;
+    }
+}
+
+@media (width<=375px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .introduction-text {
+        width: 100%;
+    }
+
+    #skills-section::before {
+        right: -110%;
+    }
+
+    .project {
+        gap: .5rem;
+    }
+
+    .project-view {
+        height: 220px;
+        width: 280px;
+        min-width: 280px;
+    }
+
+    .contact-desc h1 {
+        font-size: 3rem;
+    }
+
+    form::before {
+        bottom: -65px;
+        left: -135%;
+    }
+
+    #view-more-btn,
+    #send-btn {
+        align-self: center;
+    }
+
+    .social-links {
+        gap: 1.2rem;
+    }
+}
+
+@media (width<=320px) {
+    h1 {
+        font-size: 2.05rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .head {
+        flex-direction: column;
+        gap: .8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .head h1 {
+        font-size: 2.2rem;
+    }
+
+    .project-view {
+        height: 210px;
+        width: 240px;
+        min-width: 240px;
     }
 }
