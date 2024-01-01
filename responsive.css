@@ -1,0 +1,232 @@
+@media (width<=1150px) {
+    h1 {
+        font-size: 5.7vw;
+    }
+
+    p {
+        font-size: 1.6vw;
+    }
+
+    header,
+    #home,
+    main {
+        width: 90%;
+    }
+
+    form::before {
+        left: -85vw;
+    }
+
+    .introduction {
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .introduction::before {
+        left: -40%;
+    }
+
+    #skills-section::before {
+        right: -30%;
+    }
+}
+
+@media (width<=1000px) {
+    h1 {
+        font-size: 5.2vw;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    #home {
+        align-self: flex-end;
+        width: 97%;
+        justify-content: space-around;
+    }
+
+    header,
+    main {
+        width: 94%;
+    }
+
+    .introduction {
+        margin-top: 2rem;
+    }
+
+    .introduction-text {
+        width: 80%;
+    }
+
+    picture {
+        min-width: 365px;
+    }
+
+    #skills-section {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    #skills-section::before {
+        right: -40%;
+    }
+
+    .projects {
+        row-gap: 5rem;
+        column-gap: 2rem;
+    }
+}
+
+@media (width<800px) {
+
+    header,
+    #home,
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .social-link:last-child {
+        margin-right: 0rem;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-self: center;
+    }
+
+    .introduction {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .introduction::before {
+        left: -60%;
+    }
+
+    picture {
+        height: 500px;
+        min-width: 280px;
+    }
+
+    picture::before {
+        left: 62vw;
+    }
+
+    #skills-section::before {
+        right: -60%;
+    }
+
+    .projects {
+        grid-template-columns: repeat(1, auto);
+        row-gap: 3.5rem;
+    }
+
+    .project {
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .project-view {
+        height: 300px;
+        width: 400px;
+    }
+
+    .project-title {
+        width: 93%;
+    }
+
+    .contact-section {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+    }
+
+    .contact-desc {
+        width: 70%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .contact-desc h1 {
+        font-size: 3.5rem;
+    }
+
+    .contact-desc p {
+        margin-top: 1.5rem;
+    }
+
+    footer {
+        padding-top: 2rem;
+    }
+
+    form::before {
+        left: -80%;
+    }
+
+    footer nav {
+        width: 95%;
+        padding-top: 1rem;
+    }
+}
+
+
+@media (width<=500px) {
+    .introduction::before {
+        left: -120%;
+    }
+
+    picture {
+        min-width: 250px;
+    }
+
+    picture::before {
+        left: 70vw;
+    }
+
+    #skills-section {
+        grid-template-columns: repeat(1, auto);
+        gap: 1.8rem;
+        border-bottom: 1px solid var(--Secondary-Text-Color);
+        padding-bottom: 3rem;
+    }
+
+    #skills-section::before {
+        bottom: -20%;
+        right: -80%;
+    }
+
+    .project-view {
+        height: 240px;
+        width: 320px;
+        min-height: 200px;
+        min-width: 300px;
+    }
+
+    form::before {
+        left: -120%;
+    }
+}

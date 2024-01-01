@@ -3,7 +3,8 @@ const scrollWindow = () => {
     const toTopBtn = document.querySelector('.top-btn');
 
     document.body.addEventListener('scroll', () => {
-        toTopBtn.style.opacity = (document.body.scrollTop > 110) ? '1' : '0';
+        toTopBtn.style.opacity = (document.body.scrollTop > 100) ? '1' : '0';
+        toTopBtn.style.pointerEvents = (document.body.scrollTop > 100) ? 'auto' : 'none';
     });
 
     toTopBtn.addEventListener('click', () => {
@@ -95,10 +96,6 @@ const createProjects = (project) => {
         <h3 class="project-title">${title}</h3>
         <div class="project-stack-tags">
            ${languages.map(e => `<span class="project-stack-tag">${e}</span>`).join('')}
-        </div>
-        <div class="project-links-visible">
-            <a target="_blank" href="${links.project}" class="view-project btn">View Project</a>
-            <a target="_blank" href="${links.code}" class="view-code btn">View Code</a>
         </div>`
     );
 };

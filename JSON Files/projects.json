@@ -1,230 +1,170 @@
 [
-    {
-        "title": "AI Powered Tic-Tac-Toe",
-        "isNew": true,
-        "isFeatured": true,
-        "thumbnail": "./assets/thumbnails/tic-tac-toe.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Tic-Tac-Toe/",
-            "code": "https://github.com/Developer-Ashutosh/Tic-Tac-Toe"
-        }
-    },
-    {
-        "title": "Multi Step Form",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/multi-step-form.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Multi-Step-Form/",
-            "code": "https://github.com/Developer-Ashutosh/Multi-Step-Form"
-        }
-    },
-    {
-        "title": "REST Countries API with color theme switcher",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/rest-countries-api.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "API"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/REST-Countries-Api/",
-            "code": "https://github.com/Developer-Ashutosh/REST-Countries-Api"
-        }
-    },
-    {
-        "title": "Rock, Paper, Scissors game + bonus levels",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/rock-paper-scissor.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/RPS-Extended-Game/",
-            "code": "https://github.com/Developer-Ashutosh/RPS-Extended-Game"
-        }
-    },
-    {
-        "title": "Dictionary Web App",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/dictionary-web-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "API"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Dictionary-App/",
-            "code": "https://github.com/Developer-Ashutosh/Dictionary-App"
-        }
-    },
-    {
-        "title": "IP Address Tracker",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/ip-address-tracker.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "API"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/IP-Address-Tracker/",
-            "code": "https://github.com/Developer-Ashutosh/IP-Address-Tracker"
-        }
-    },
-    {
-        "title": "Todo web app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/todo-web-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/ToDo-App/",
-            "code": "https://github.com/Developer-Ashutosh/ToDo-App"
-        }
-    },
-    {
-        "title": "Password generator app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/password-generator-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Password-Generator/",
-            "code": "https://github.com/Developer-Ashutosh/Password-Generator"
-        }
-    },
-    {
-        "title": "Calculator app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/calculator-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Calculator-App/",
-            "code": "https://github.com/Developer-Ashutosh/Calculator-App"
-        }
-    },
-    {
-        "title": "Job listings with filtering",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/job-listing-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Job-Listing-Master/",
-            "code": "https://github.com/Developer-Ashutosh/Job-Listing-Master"
-        }
-    },
-    {
-        "title": "Tip calculator app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/tip-calculator-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Tip-Calculator/",
-            "code": "https://github.com/Developer-Ashutosh/Tip-Calculator"
-        }
-    },
-    {
-        "title": "Advice generator app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/advice-generator-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "API"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Advice-Generator/",
-            "code": "https://github.com/Developer-Ashutosh/Advice-Generator"
-        }
-    },
-    {
-        "title": "Age calculator app",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/age-calculator-app.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Age-Calculator/",
-            "code": "https://github.com/Developer-Ashutosh/Age-Calculator"
-        }
-    },
-    {
-        "title": "Space tourism multi-page website",
-        "isNew": false,
-        "isFeatured": false,
-        "thumbnail": "./assets/thumbnails/space-tourism-website.webp",
-        "languages": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "tools": [],
-        "links": {
-            "project": "https://developer-ashutosh.github.io/Space-Tourism/",
-            "code": "https://github.com/Developer-Ashutosh/Space-Tourism"
-        }
+  {
+    "title": "AI Powered Tic-Tac-Toe",
+    "isNew": true,
+    "isFeatured": true,
+    "thumbnail": "./assets/thumbnails/tic-tac-toe.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Tic-Tac-Toe/",
+      "code": "https://github.com/Developer-Ashutosh/Tic-Tac-Toe"
     }
+  },
+  {
+    "title": "Multi Step Form",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/multi-step-form.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Multi-Step-Form/",
+      "code": "https://github.com/Developer-Ashutosh/Multi-Step-Form"
+    }
+  },
+  {
+    "title": "REST Countries API +  theme switcher",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/rest-countries-api.webp",
+    "languages": ["HTML", "CSS", "Javascript", "API"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/REST-Countries-Api/",
+      "code": "https://github.com/Developer-Ashutosh/REST-Countries-Api"
+    }
+  },
+  {
+    "title": "Rock, Paper, Scissor + bonus levels",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/rock-paper-scissor.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/RPS-Extended-Game/",
+      "code": "https://github.com/Developer-Ashutosh/RPS-Extended-Game"
+    }
+  },
+  {
+    "title": "Dictionary Web App",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/dictionary-web-app.webp",
+    "languages": ["HTML", "CSS", "Javascript", "API"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Dictionary-App/",
+      "code": "https://github.com/Developer-Ashutosh/Dictionary-App"
+    }
+  },
+  {
+    "title": "IP Address Tracker",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/ip-address-tracker.webp",
+    "languages": ["HTML", "CSS", "Javascript", "API"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/IP-Address-Tracker/",
+      "code": "https://github.com/Developer-Ashutosh/IP-Address-Tracker"
+    }
+  },
+  {
+    "title": "Todo web app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/todo-web-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/ToDo-App/",
+      "code": "https://github.com/Developer-Ashutosh/ToDo-App"
+    }
+  },
+  {
+    "title": "Password generator app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/password-generator-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Password-Generator/",
+      "code": "https://github.com/Developer-Ashutosh/Password-Generator"
+    }
+  },
+  {
+    "title": "Calculator app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/calculator-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Calculator-App/",
+      "code": "https://github.com/Developer-Ashutosh/Calculator-App"
+    }
+  },
+  {
+    "title": "Job listings with filtering",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/job-listing-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Job-Listing-Master/",
+      "code": "https://github.com/Developer-Ashutosh/Job-Listing-Master"
+    }
+  },
+  {
+    "title": "Tip calculator app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/tip-calculator-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Tip-Calculator/",
+      "code": "https://github.com/Developer-Ashutosh/Tip-Calculator"
+    }
+  },
+  {
+    "title": "Advice generator app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/advice-generator-app.webp",
+    "languages": ["HTML", "CSS", "Javascript", "API"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Advice-Generator/",
+      "code": "https://github.com/Developer-Ashutosh/Advice-Generator"
+    }
+  },
+  {
+    "title": "Age calculator app",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/age-calculator-app.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Age-Calculator/",
+      "code": "https://github.com/Developer-Ashutosh/Age-Calculator"
+    }
+  },
+  {
+    "title": "Space tourism multi-page website",
+    "isNew": false,
+    "isFeatured": false,
+    "thumbnail": "./assets/thumbnails/space-tourism-website.webp",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "tools": [],
+    "links": {
+      "project": "https://developer-ashutosh.github.io/Space-Tourism/",
+      "code": "https://github.com/Developer-Ashutosh/Space-Tourism"
+    }
+  }
 ]
