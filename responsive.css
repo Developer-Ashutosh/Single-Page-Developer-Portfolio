@@ -223,10 +223,6 @@
         right: -80%;
     }
 
-    .projects {
-        row-gap: 2.5rem;
-    }
-
     .project-view {
         height: 240px;
         width: 320px;
